@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": ["文献编号", "文献类别", "文章类型", "英文题名", "中文题名", "期刊", "第一作者", "DOI", "正式发表日期", "原文摘要", "中文摘要", "全文访问状态", "精读状态"],
+  "properties": {
+    "文献编号": {"type": "string", "pattern": "^[0-9]{4}-W[0-9]{2}-[CFXO][0-9]+$"},
+    "文献类别": {"enum": ["C", "F", "X", "O"]},
+    "文章类型": {"type": "string"},
+    "英文题名": {"type": "string"},
+    "中文题名": {"type": "string"},
+    "期刊": {"type": "string"},
+    "第一作者": {"type": "string"},
+    "DOI": {"type": "string"},
+    "正式发表日期": {"type": "string"},
+    "原文摘要": {"type": "string"},
+    "中文摘要": {"type": "string"},
+    "全文访问状态": {"type": "string"},
+    "精读状态": {"type": "string"}
+  }
+}

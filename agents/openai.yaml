@@ -1,0 +1,4 @@
+interface:
+  display_name: "Weekly Literature Review"
+  short_description: "AI-psychology literature search, deep reading, topics, and trends"
+  default_prompt: "Use $weekly-literature-review to search and verify AI-psychology papers, create full-text deep-reading DOCX files, update the topic pool, and summarize cumulative trends."
